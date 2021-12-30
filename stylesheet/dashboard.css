@@ -12,7 +12,7 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
-  background-color: papayawhip;
+  background-color: #222f3e;
   border-radius: 7px;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
@@ -31,15 +31,16 @@ body {
           align-items: center;
   width: 100%;
   height: 30px;
-  margin: 5px 0;
+  margin: 7px 0;
   border-radius: 5px;
-  background-color: rgba(126, 97, 22, 0.741);
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.048);
   color: white;
   cursor: pointer;
 }
 
 .sideMenu li:hover {
-  background-color: rgba(126, 97, 22, 0.5);
+  background-color: #341f97;
 }
 
 main {
@@ -56,6 +57,11 @@ main {
 
 .container {
   margin-left: 10px;
+}
+
+.container h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .title {
@@ -75,7 +81,7 @@ main {
   text-align: center;
   border-radius: 5px;
   color: white;
-  background-color: black;
+  background-color: #222f3e;
 }
 
 .views {
@@ -84,7 +90,7 @@ main {
   gap: 10px;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 10px;
+  margin-bottom: 1.3rem;
 }
 
 .views .totalView {
@@ -96,8 +102,7 @@ main {
   border-radius: 5px;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
-  border: 2px solid rgba(84, 151, 177, 0.74);
-  background-color: rgba(126, 179, 200, 0.055);
+  border: 3px solid #01a3a4;
 }
 
 .views .countryView {
@@ -109,8 +114,7 @@ main {
   border-radius: 5px;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
-  border: 2px solid rgba(84, 151, 177, 0.74);
-  background-color: rgba(126, 179, 200, 0.055);
+  border: 3px solid #01a3a4;
 }
 
 .sub {
@@ -121,6 +125,7 @@ main {
       grid-template-columns: repeat(6, 1fr);
   -ms-grid-rows: (60px)[4];
       grid-template-rows: repeat(4, 60px);
+  margin-bottom: 1.3rem;
 }
 
 .sub .like {
@@ -134,8 +139,7 @@ main {
   border-radius: 5px;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
-  border: 2px solid orange;
-  background-color: rgba(255, 166, 0, 0.082);
+  border: 3px solid #feca57;
 }
 
 .sub .totalSub {
@@ -149,8 +153,7 @@ main {
   border-radius: 5px;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
-  border: 2px solid green;
-  background-color: rgba(0, 128, 0, 0.027);
+  border: 3px solid #ff6b6b;
 }
 
 .sub .newSub {
@@ -164,8 +167,7 @@ main {
   border-radius: 5px;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
-  border: 2px solid green;
-  background-color: rgba(0, 128, 0, 0.027);
+  border: 3px solid #ff6b6b;
 }
 
 .sub .time {
@@ -179,8 +181,7 @@ main {
   border-radius: 5px;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
-  border: 2px solid black;
-  background-color: rgba(0, 0, 0, 0.034);
+  border: 3px solid #5f27cd;
 }
 
 .videos {
@@ -203,8 +204,7 @@ main {
   grid-row: 1/4;
   padding: 10px;
   border-radius: 5px;
-  border: 2px solid red;
-  background-color: rgba(255, 0, 0, 0.041);
+  border: 3px solid #222f3e;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
 }
@@ -218,8 +218,7 @@ main {
   grid-row: 1/4;
   padding: 10px;
   border-radius: 5px;
-  border: 2px solid red;
-  background-color: rgba(255, 0, 0, 0.041);
+  border: 3px solid #222f3e;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
 }
@@ -233,8 +232,7 @@ main {
   grid-row: 1/4;
   padding: 10px;
   border-radius: 5px;
-  border: 2px solid red;
-  background-color: rgba(255, 0, 0, 0.041);
+  border: 3px solid #222f3e;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
 }
@@ -248,8 +246,7 @@ main {
   grid-row: 1/4;
   padding: 10px;
   border-radius: 5px;
-  border: 2px solid red;
-  background-color: rgba(255, 0, 0, 0.041);
+  border: 3px solid #222f3e;
   -webkit-box-shadow: 3px 3px 7px #c8c8c8;
           box-shadow: 3px 3px 7px #c8c8c8;
 }
